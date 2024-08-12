@@ -20,3 +20,11 @@ http://localhost:5173/
 ```
 
 ![frontend-ui](./screenshots/frontend-ui.png?raw=true "frontend verify")
+
+## MongoDB
+
+```
+mongoose.connect('mongodb://localhost/soccerDB')
+```
+
+![mongodb](./screenshots/mongodb.png?raw=true "mongodb")
