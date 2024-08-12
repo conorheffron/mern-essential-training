@@ -2,7 +2,7 @@ import express from 'express'
 import mongoose from 'mongoose'
 import bodyparser from 'body-parser'
 import cors from 'cors'
-import routes from './routes/soccerRoutes.js'
+import routes from './routes/soccerRoutes'
 
 const app = express()
 const PORT = 4000
