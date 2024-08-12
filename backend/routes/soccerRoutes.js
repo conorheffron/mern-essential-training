@@ -4,7 +4,7 @@ import {
   getPlayerWithId,
   updatePlayer,
   deletePlayer,
-} from '../controllers/playerController.js'
+} from '../controllers/playerController'
 
 const routes = (app) => {
   app.route('/players').get(getPlayers).post(addNewPlayer)
