@@ -2,7 +2,7 @@
 
 ## Backend Build, Run & Verify
 
-![backend](./screenshots/backend.png?raw=true "backend build run")
+![frontend](./screenshots/frontend.png?raw=true "frontend build run")
 
 ```
 http://localhost:4000/
@@ -13,7 +13,7 @@ http://localhost:4000/
 
 ## Frontend Build, Run & View
 
-![frontend](./screenshots/frontend.png?raw=true "frontend build run")
+![backend](./screenshots/backend.png?raw=true "backend build run")
 
 ```
 http://localhost:5173/
