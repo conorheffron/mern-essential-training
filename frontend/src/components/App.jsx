@@ -18,6 +18,10 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+    this.updatePlayers()
+  }
+
+  updatePlayers() {
     const url = 'http://localhost:4000/players'
     axios
       .get(url)
