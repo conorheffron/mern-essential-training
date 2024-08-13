@@ -1,4 +1,3 @@
-/* eslint-disable react/no-string-refs */
 import React from 'react'
 import axios from 'axios'
 
@@ -8,12 +7,12 @@ class PlayerForm extends React.Component {
 
     axios
       .post('http://localhost:4000/players', {
-        firstName: this.firstName.value,
-        lastName: this.lastName.value,
-        phone: this.phone.value,
-        email: this.email.value,
-        strength: this.strength.value,
-        endurance: this.endurance.value,
+        firstName: this.refs.firstName.value,
+        lastName: this.refs.lastName.value,
+        phone: this.refs.phone.value,
+        email: this.refs.email.value,
+        strength: this.refs.strength.value,
+        endurance: this.refs.endurance.value,
       })
       .then((response) => console.log(response))
       .catch((error) => console.log(error))
